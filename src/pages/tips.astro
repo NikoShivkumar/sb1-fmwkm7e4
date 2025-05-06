@@ -1,0 +1,124 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Cybersecurity Tips">
+  <nav class="nav-container">
+    <div class="nav-tabs">
+      <a href="/">Main</a>
+      <a href="/careers">Careers</a>
+      <a href="/resources">Resources</a>
+      <a href="/tips">Tips</a>
+      <a href="/demo">Demo</a>
+    </div>
+  </nav>
+
+  <div class="hero-section" style="background-image: url('https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1920'); background-size: cover; background-attachment: fixed; background-position: center;">
+    <div class="hero-content">
+      <h1>Cybersecurity Tips</h1>
+      <p>Essential Security Practices for Everyone</p>
+    </div>
+  </div>
+
+  <section class="content-section">
+    <div class="tips-container">
+      <div class="source-citation">
+        <p>Tips sourced from: <a href="https://www.cisa.gov/news-events/news/what-cybersecurity" target="_blank" rel="noopener noreferrer">CISA (Cybersecurity & Infrastructure Security Agency)</a></p>
+      </div>
+
+      <div class="tip-card">
+        <h2>1. Keep Software Up to Date</h2>
+        <p>Enable automatic updates for your operating system and applications. Updated software helps protect your devices and accounts from known vulnerabilities that attackers could exploit.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>2. Use Strong Passwords</h2>
+        <p>Create unique, complex passwords for each account. Use a combination of uppercase and lowercase letters, numbers, and special characters. Consider using a password manager to help generate and store strong passwords securely.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>3. Enable Multi-Factor Authentication (MFA)</h2>
+        <p>Add an extra layer of security to your accounts by enabling MFA. This requires multiple forms of verification before granting access to your account, making it much harder for attackers to gain unauthorized access.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>4. Be Cautious with Links and Attachments</h2>
+        <p>Never click on suspicious links or download attachments from unknown sources. Verify the sender's identity and scan attachments for malware before opening them.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>5. Secure Your Network</h2>
+        <p>Use strong encryption (WPA3) for your Wi-Fi network and change default passwords on your router. Regularly check and update your network security settings.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>6. Back Up Your Data</h2>
+        <p>Regularly back up important data to an external drive or secure cloud service. This helps protect against data loss from ransomware attacks or hardware failures.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>7. Use Antivirus Software</h2>
+        <p>Install and maintain reputable antivirus software on all your devices. Keep it updated to protect against the latest threats and malware.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>8. Practice Safe Browsing</h2>
+        <p>Only visit trusted websites, especially when making online purchases or entering sensitive information. Look for "https://" and the padlock icon in your browser's address bar.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>9. Protect Personal Information</h2>
+        <p>Be cautious about sharing personal information online. Cybercriminals can use this information for identity theft or to gain access to your accounts.</p>
+      </div>
+
+      <div class="tip-card">
+        <h2>10. Stay Informed</h2>
+        <p>Keep up with the latest cybersecurity threats and best practices. Follow reputable security sources and participate in security awareness training when available.</p>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .tips-container {
+    display: grid;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .source-citation {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .source-citation a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  .source-citation a:hover {
+    text-decoration: underline;
+  }
+
+  .tip-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .tip-card h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .tip-card p {
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+</style>

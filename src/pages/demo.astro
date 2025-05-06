@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Cybersecurity Demo">
+  <nav class="nav-container">
+    <div class="nav-tabs">
+      <a href="/">Main</a>
+      <a href="/careers">Careers</a>
+      <a href="/resources">Resources</a>
+      <a href="/tips">Tips</a>
+      <a href="/demo">Demo and Sources</a>
+    </div>
+  </nav>
+
+  <section class="content-section demo-section">
+    <h1>Cybersecurity in Action</h1>
+    <p>This is a very simplistic visual demonstration of how cybersecurity software such as an antivirus might detect and then get rid of a virus.</p>
+    
+    <div class="video-container">
+      <iframe width="1378" height="775" src="https://www.youtube.com/embed/MHxi0ukDJ2s" title="How does an Antivirus work?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br>
+    <p><b>References</b><br>
+    Careers sourced from indeed. (n.d.). <br>CISA. (2021, February 1). What is Cybersecurity? Cybersecurity and Infrastructure Security Agency CISA; CISA. https://www.cisa.gov/news-events/news/what-cybersecurity<br>Patterson, N. (2024, October 30). What is Cyber Security and Why is it Important? Www.snhu.edu. https://www.snhu.edu/about-us/newsroom/stem/what-is-cyber-security<br>Vigderman, A., & Turner, G. (2024, September 17). How Does Antivirus Software Work? Security.org. https://www.security.org/antivirus/how-does-antivirus-work/</p>
+  </section>
+</Layout>
+
+<style>
+  .demo-section {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .demo-section h1 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+
+  .demo-section p {
+    margin-bottom: 2rem;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    padding-top: 56.25%;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+</style>

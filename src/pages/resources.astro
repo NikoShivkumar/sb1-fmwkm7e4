@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Cybersecurity Resources">
+  <nav class="nav-container">
+    <div class="nav-tabs">
+      <a href="/">Main</a>
+      <a href="/careers">Careers</a>
+      <a href="/resources">Resources</a>
+      <a href="/tips">Tips</a>
+      <a href="/demo">Demo</a>
+    </div>
+  </nav>
+
+  <div class="hero-section" style="background-image: url('https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1920'); background-size: cover; background-attachment: fixed; background-position: center;">
+    <div class="hero-content">
+      <h1>Learning Resources</h1>
+      <p>Start Your Journey in Cybersecurity</p>
+    </div>
+  </div>
+
+  <section class="content-section">
+    <div class="resources-container">
+      <div class="resource-section">
+        <h2>Online Learning Platforms</h2>
+        <ul class="resource-list">
+          <li>TryHackMe - Interactive cybersecurity training</li>
+          <li>HackTheBox - Advanced penetration testing practice</li>
+          <li>Coursera - Professional cybersecurity certifications</li>
+          <li>Cybrary - Free and premium security courses</li>
+        </ul>
+      </div>
+
+      <div class="resource-section">
+        <h2>Professional Certifications</h2>
+        <ul class="resource-list">
+          <li>CompTIA Security+</li>
+          <li>Certified Ethical Hacker (CEH)</li>
+          <li>CISSP (Certified Information Systems Security Professional)</li>
+          <li>OSCP (Offensive Security Certified Professional)</li>
+        </ul>
+      </div>
+
+      <div class="resource-section">
+        <h2>Career Development</h2>
+        <ul class="resource-list">
+          <li>Join cybersecurity communities and forums</li>
+          <li>Attend security conferences and workshops</li>
+          <li>Participate in CTF (Capture The Flag) competitions</li>
+          <li>Build a home lab for practice</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .resources-container {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .resource-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .resource-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+
+  .resource-list {
+    list-style-position: inside;
+    padding-left: 1rem;
+  }
+
+  .resource-list li {
+    margin-bottom: 0.5rem;
+  }
+</style>

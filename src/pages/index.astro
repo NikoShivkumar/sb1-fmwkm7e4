@@ -1,0 +1,288 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Cybersecurity Info">
+  <nav class="nav-container">
+    <div class="nav-tabs">
+      <a href="/">Main</a>
+      <a href="/careers">Careers</a>
+      <a href="/resources">Resources</a>
+      <a href="/tips">Tips</a>
+      <a href="/demo">Demo</a>
+    </div>
+  </nav>
+
+  <div class="hero-section" style="background-image: url('https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1920'); background-size: cover; background-attachment: fixed; background-position: center;">
+    <div class="hero-content">
+      <h1>What is Cybersecurity?</h1>
+      <p>My Opinion On the Importance of Cybersecurity</p>
+    </div>
+  </div>
+
+  <section class="content-section">
+    <article class="cybersecurity-article">
+      <h2>Understanding Cybersecurity</h2>
+      <p>Many people store their information such as passwords, banking information, details about their identity and personal information, ideas, and other work related data or files on computers and online. This is valuable information that needs to be protected. Computers are integrated into so many aspects of most modern-day societies, and we rely on them for many things, but this reliance poses a weakness. Since we must rely on technology for many things, and we must exchange and store valuable and private information through computer systems, hackers and other individuals seeking to steal that information can find ways to exploit weaknesses in these computer systems in order to gain access to that information. The goal of cybersecurity is to prevent that from happening. 
+      <br><br>
+      Cybersecurity is the practice of protecting systems, networks, and data from digital threats and attacks, such as cyberattacks, unauthorized access, data breaches, and other malicious activities.These attacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes. In order to protect against cyberattacks like these, there are a wide range of technologies, processes, and practices that cybersecurity companies, but also just most software developers use—as keeping clientele information safe from external threats is definitely in their interest—to keep information safe and stop it from being compromised, stolen, or altered. 
+      <br><br>
+      You can find out more about the different types of cybersecurity related careers and jobs in the <b>Careers</b> tab.<br><br> 
+      One example of how cybersecurity can prevent cyber attacks is when you accidently download some harmful malware onto a computer, possibly through a phishing link or false download link. If you have a secure computer with cybersecurity software installed such as some kind of antivirus software, the antivirus will scan files (often more recently downloaded or active ones), memory, and web traffic for malicious code, which it can detect through different methods but primarily by checking for suspicious behavior. Different viruses often interact with a computer in their own way, each specific to that virus, and these behavioural patterns can be recognized and used to find malicious software. Then these files are blocked or removed. Without this cybersecurity software in place, there would be nothing to stop a virus like this. 
+      </p>
+      
+      <h3>Why Cybersecurity Matters</h3>
+      <p>Cybersecurity will be critically important in the future because technology is becoming more advanced, more widespread, and easier for both everyday users and criminals to access and exploit. As more people learn how to use computers and other digital tools, more people will also inevitably become skilled in hacking or misusing that technology. And now, with the rise of powerful tools like artificial intelligence, it’s no longer just expert hackers who can cause harm — AI can help almost anyone create convincing attacks that trick people and steal their information.
+      <br><br>
+      For example, phishing — which used to rely on poorly written, suspicious-looking emails — has now evolved into something far more dangerous. With the help of AI, someone could create a completely fake digital identity. They could use an AI chatbot to write perfect, natural-sounding emails that seem totally legitimate. These emails might include personalized details, pulled from your public social media or other sources, to make them more believable. The attacker could also create a professional-looking website using AI tools that mirrors a real company’s site. When the victim clicks a link in the email, they might be taken to this fake site and asked to “log in,” unknowingly handing over their username and password.
+      <br><br>
+      All of this can be done quickly and cheaply — and potentially at a massive scale — thanks to AI. That’s why cybersecurity isn’t just a technical issue; it’s a necessary defense in a world where the tools to deceive and steal are becoming smarter and more accessible. If we don’t keep advancing our cybersecurity tools and education at the same pace, individuals, companies, and even governments could face serious threats. For those reasons, it's more important than ever for people to start educating themselves on personal cybersecurity practices to stay safe online—or even consider joining a cybersecurity company to help defend against the growing threats that new technologies like AI continue to introduce.</p>
+
+    <div class="quiz-section">
+      <h2>Test Your Cybersecurity Knowledge</h2>
+      <div id="quiz-container">
+        <div class="quiz-question" data-question="1">
+          <h3>1. Why is cybersecurity important in modern society?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option" data-correct="true">It protects valuable and private information from digital threats</button>
+            <button class="quiz-option">It allows easier access to social media</button>
+            <button class="quiz-option">It helps speed up internet connections</button>
+            <button class="quiz-option">It increases the cost of using technology</button>
+          </div>
+          <p class="feedback"></p>
+        </div>
+
+        <div class="quiz-question hidden" data-question="2">
+          <h3>2.What is a common goal of cyberattacks?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option">To reduce internet traffic</button>
+            <button class="quiz-option">To improve computer resistance</button>
+            <button class="quiz-option" data-correct="true">To access or destroy sensitive information</button>
+            <button class="quiz-option">To prank the user</button>
+          </div>
+          <p class="feedback"></p>
+        </div>
+
+        <div class="quiz-question hidden" data-question="3">
+          <h3>3. Which of the following is an example of a cyber threat mentioned in the passage?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option">In-person identity theft</button>
+            <button class="quiz-option" data-correct="true">Phishing links that download malware</button>
+            <button class="quiz-option">Printer malfunctions</button>
+            <button class="quiz-option">Scam callers</button>
+          </div>
+          <p class="feedback"></p>
+        </div>
+
+        <div class="quiz-question hidden" data-question="4">
+          <h3>4.What does antivirus software primarily do to detect malicious code?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option">Scans user emails for spelling mistakes</button>
+            <button class="quiz-option">Creates backups of all data</button>
+            <button class="quiz-option">Shuts down the internet</button>
+            <button class="quiz-option" data-correct="true">Looks for suspicious behavior in files and programs</button>
+          </div>
+          <p class="feedback"></p>
+        </div>
+
+        <div class="quiz-question hidden" data-question="5">
+          <h3>5. According to the text, who uses cybersecurity practices to keep data safe?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option">Only banks and governments</button>
+            <button class="quiz-option">Technically all internet users should</button>
+            <button class="quiz-option" data-correct="true">B & D</button>
+            <button class="quiz-option">Cybersecurity companies and software developers</button>
+          </div>
+          <p class="feedback"></p>
+          
+        </div>
+
+        <button id="retry-quiz" >Retry Quiz</button>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .cybersecurity-article {
+    max-width: 800px;
+    margin: 0 auto 4rem;
+  }
+
+  .cybersecurity-article h2,
+  .cybersecurity-article h3,
+  .cybersecurity-article h4 {
+    color: var(--primary-color);
+    margin: 2rem 0 1rem;
+  }
+
+  .cybersecurity-article h4 {
+    font-size: 1.2rem;
+  }
+
+  .cybersecurity-article p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .quiz-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+
+  .quiz-question {
+    margin-bottom: 1.5rem;
+  }
+
+  .quiz-options {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .quiz-option {
+    padding: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: white;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .quiz-option:hover:not(.correct):not(.incorrect) {
+    background-color: #edf2f7;
+  }
+
+  .quiz-option.correct {
+    background-color: #48bb78;
+    color: white;
+    border-color: #48bb78;
+  }
+
+  .quiz-option.incorrect {
+    background-color: #f56565;
+    color: white;
+    border-color: #f56565;
+  }
+
+  .feedback {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    display: none;
+  }
+
+  .feedback.show {
+    display: block;
+    background-color: #f8f9fa;
+    border: 1px solid #e2e8f0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #retry-quiz {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  #retry-quiz:hover {
+    background-color: var(--secondary-color);
+  }
+</style>
+
+<script>
+  function initializeQuiz() {
+    const quizContainer = document.getElementById('quiz-container');
+    const retryButton = document.getElementById('retry-quiz');
+    let currentQuestion = 1;
+
+    function handleOptionClick(e) {
+      if (!e.target.classList.contains('quiz-option')) return;
+      
+      const options = e.target.parentElement.getElementsByClassName('quiz-option');
+      const feedback = e.target.parentElement.nextElementSibling;
+      const isCorrect = e.target.hasAttribute('data-correct');
+      
+      // Disable all options after selection
+      Array.from(options).forEach(option => {
+        option.disabled = true;
+        if (option.hasAttribute('data-correct')) {
+          option.classList.add('correct');
+        }
+      });
+
+      // Mark selected option
+      if (isCorrect) {
+        e.target.classList.add('correct');
+        feedback.textContent = 'Correct!';
+      } else {
+        e.target.classList.add('incorrect');
+        feedback.textContent = 'Incorrect. Try again!';
+      }
+      feedback.classList.add('show');
+
+      // Show next question if correct
+      if (isCorrect && currentQuestion < 5) {
+        setTimeout(() => {
+          const nextQuestion = document.querySelector(`[data-question="${currentQuestion + 1}"]`);
+          if (nextQuestion) {
+            nextQuestion.classList.remove('hidden');
+            currentQuestion++;
+          }
+        }, 1000);
+      }
+
+      // Show retry button if all questions are answered
+      if (currentQuestion === 5 && isCorrect) {
+        setTimeout(() => {
+          retryButton.classList.remove('hidden');
+        }, 1000);
+      }
+    }
+
+    function resetQuiz() {
+      const questions = document.getElementsByClassName('quiz-question');
+      Array.from(questions).forEach((question, index) => {
+        // Reset options
+        const options = question.getElementsByClassName('quiz-option');
+        Array.from(options).forEach(option => {
+          option.classList.remove('correct', 'incorrect');
+          option.disabled = false;
+        });
+
+        // Reset feedback
+        const feedback = question.querySelector('.feedback');
+        feedback.textContent = '';
+        feedback.classList.remove('show');
+
+        // Hide all questions except first
+        if (index > 0) {
+          question.classList.add('hidden');
+        }
+      });
+
+      // Hide retry button
+      retryButton.classList.add('hidden');
+      currentQuestion = 1;
+    }
+
+    quizContainer.addEventListener('click', handleOptionClick);
+    retryButton.addEventListener('click', resetQuiz);
+  }
+
+  // Initialize quiz when the page loads
+  document.addEventListener('DOMContentLoaded', initializeQuiz);
+</script>
