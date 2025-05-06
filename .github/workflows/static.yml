@@ -36,8 +36,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          sb1-fmwkm7e4
+          path: 'sb1-fmwkm7e4'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
